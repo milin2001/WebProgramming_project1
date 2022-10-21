@@ -1,0 +1,73 @@
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    display: ruby-text-container;
+}
+h1.login-title {
+    color: dodgerblue;
+    font-family: serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.login-input {
+    font-size: medium;
+    border: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+    border-radius: 10px;
+
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    font-family: serif;
+    font-size: large;
+    cursor: grab;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    box-shadow: 0 4px white;
+    border-radius: 10px;
+    width: 100%;
+}
+.login-button:hover{
+    background-color: black;
+}
+.login-button:active{
+    background-color: black;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+
+.link {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-family: serif;
+}
+.link a {
+    color: blue;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+.titles{
+    text-align: center;
+    color: dodgerblue;
+    font-family: Serif;
+    font-size: xxx-large;
+}

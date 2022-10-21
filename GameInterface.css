@@ -1,0 +1,83 @@
+.gameHeader{
+    color:dodgerblue;
+    font-size: xxx-large;
+    text-align: center;
+}
+.letterbutton{
+
+    border: none;
+    color: white;
+    padding: 2% 4%;
+    text-align: center;
+    font-family: Serif;
+    font-size: large;
+    cursor: grab;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    box-shadow: 0 3px white;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+.letterbutton:hover{
+    background-color: black;
+}
+.letterbutton:active{
+    background-color: black;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+.displaystyle{
+    margin: 0 auto;
+    width:50%;
+    height:50%;
+    padding:5px;
+}
+.box {
+    display: inline-block;
+    width: 100%;
+    background: none;
+    color: lawngreen;
+    font-size: xx-large;
+    text-align: center;
+}
+.hangingStyle{
+    float: left;
+    width:300px;
+    height: 300px;
+    display:inline-block;
+}
+.clue{
+    color: yellow;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: right;
+}
+.win{
+    color: greenyellow;
+    font-size: xxx-large;
+    text-align: center;
+}
+.lose{
+    color: greenyellow;
+    font-size:xxx-large;
+    text-align: center;
+}
+.letterguess{
+    font-size: 35px;
+    border-bottom: 3px solid #000;
+    margin-right: 5px;
+
+}
+.letterpop{
+    margin-top:1%;
+    padding:2%;
+    background: none;
+    color: white;
+    text-align: center;
+}
+
+.key_layout{
+    text-align: center;
+    margin-top: 0.5%;
+}
